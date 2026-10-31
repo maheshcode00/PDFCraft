@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="pdfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+    <linearGradient id="foldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="#0f172a"/>
+  <!-- Paper Base -->
+  <path d="M128 80 C128 66.745 138.745 56 152 56 L300 56 L384 140 L384 432 C384 445.255 373.255 456 360 456 L152 456 C138.745 456 128 445.255 128 432 Z" fill="url(#pdfGrad)" />
+  <!-- Fold Corner -->
+  <path d="M300 56 L384 140 L308 140 C303.582 140 300 136.418 300 132 Z" fill="url(#foldGrad)" opacity="0.9" />
+  <!-- PDF Emblem -->
+  <rect x="176" y="210" width="160" height="42" rx="8" fill="#ffffff" />
+  <text x="256" y="239" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#be123c" text-anchor="middle" letter-spacing="4">PDF</text>
+  <!-- Decorative document lines -->
+  <rect x="176" y="280" width="160" height="12" rx="6" fill="#ffffff" opacity="0.8" />
+  <rect x="176" y="310" width="120" height="12" rx="6" fill="#ffffff" opacity="0.8" />
+  <rect x="176" y="340" width="140" height="12" rx="6" fill="#ffffff" opacity="0.8" />
+  <circle cx="360" cy="380" r="28" fill="#3b82f6" />
+  <path d="M352 380 L358 386 L370 372" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
